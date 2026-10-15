@@ -464,22 +464,19 @@ async function loadFAQs() {
     faqs = window.MOCK_FAQS || [];
   }
 
-    container.innerHTML = faqs.map((faq, index) => `
-      <div class="border border-slate-200 rounded-xl overflow-hidden bg-white">
-        <button class="w-full text-left p-4 font-bold text-slate-900 text-sm flex items-center justify-between gap-4 hover:bg-slate-50 transition" onclick="toggleFaq(${index})">
-          <span>${faq.q}</span>
-          <i data-lucide="chevron-down" id="faq-icon-${index}" class="w-4 h-4 text-slate-400 transition-transform"></i>
-        </button>
-        <div id="faq-ans-${index}" class="hidden p-4 pt-0 text-xs text-slate-600 leading-relaxed border-t border-slate-100 bg-slate-50/50">
-          ${faq.a}
-        </div>
+  container.innerHTML = faqs.map((faq, index) => `
+    <div class="border border-slate-200 rounded-xl overflow-hidden bg-white">
+      <button class="w-full text-left p-4 font-bold text-slate-900 text-sm flex items-center justify-between gap-4 hover:bg-slate-50 transition" onclick="toggleFaq(${index})">
+        <span>${faq.q}</span>
+        <i data-lucide="chevron-down" id="faq-icon-${index}" class="w-4 h-4 text-slate-400 transition-transform"></i>
+      </button>
+      <div id="faq-ans-${index}" class="hidden p-4 pt-0 text-xs text-slate-600 leading-relaxed border-t border-slate-100 bg-slate-50/50">
+        ${faq.a}
       </div>
-    `).join('');
+    </div>
+  `).join('');
 
-    lucide.createIcons();
-  } catch (e) {
-    console.error('Failed to load FAQs:', e);
-  }
+  lucide.createIcons();
 }
 
 function toggleFaq(index) {
