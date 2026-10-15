@@ -1,0 +1,62 @@
+[
+  {
+    "id": "kashmir",
+    "name": "Kashmir & Ladakh",
+    "tagline": "Paradise on Earth & High Mountain Deserts",
+    "image": "https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1000&q=80",
+    "highlights": ["Dal Lake Shikara", "Gulmarg Snow Gondola", "Pangong Tso Lake", "Nubra Valley Dunes"],
+    "bestSeason": "Apr - Oct (Spring/Summer) & Dec - Feb (Snow)",
+    "packagesCount": 4,
+    "description": "Breathtaking valleys, snow-capped peaks, alpine lakes, centuries-old houseboats and ancient Buddhist monasteries."
+  },
+  {
+    "id": "himachal",
+    "name": "Himachal Pradesh",
+    "tagline": "The Valley of Gods & Adventure Trails",
+    "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1000&q=80",
+    "highlights": ["Solang Valley Rafting", "Spiti Valley Roads", "McLeod Ganj Monasteries", "Atal Tunnel Drive"],
+    "bestSeason": "Round the year (Snow in Dec-Feb, Greenery in Mar-Jun)",
+    "packagesCount": 5,
+    "description": "Pine forests, serene hill stations, rushing mountain rivers, Tibetan spiritual culture and high altitude passes."
+  },
+  {
+    "id": "uttarakhand",
+    "name": "Uttarakhand (Devbhoomi)",
+    "tagline": "Spiritual Solace & Himalayan Serenity",
+    "image": "https://images.unsplash.com/photo-1600100397608-f010f443b782?auto=format&fit=crop&w=1000&q=80",
+    "highlights": ["Rishikesh River Rafting", "Ganga Aarti Haridwar", "Kedarnath Temple", "Jim Corbett Tiger Safari"],
+    "bestSeason": "Mar - Jun & Sep - Nov",
+    "packagesCount": 4,
+    "description": "Sacred pilgrim routes of Char Dham, thrilling river rapids, tranquil emerald lakes of Nainital and royal national parks."
+  },
+  {
+    "id": "rajasthan",
+    "name": "Rajasthan",
+    "tagline": "The Royal Realm of Maharajas & Forts",
+    "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1000&q=80",
+    "highlights": ["Amer Fort Jaipur", "Lake Pichola Udaipur", "Thar Desert Safari", "Mehrangarh Fort Jodhpur"],
+    "bestSeason": "Oct - Mar (Pleasant Winter)",
+    "packagesCount": 4,
+    "description": "Majestic hilltop fortresses, vibrant desert folk melodies, royal palaces, camel safaris on golden dunes and royal cuisine."
+  },
+  {
+    "id": "goldentriangle",
+    "name": "Golden Triangle",
+    "tagline": "Delhi - Agra - Jaipur Timeless Splendor",
+    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+    "highlights": ["Taj Mahal Sunrise", "Red Fort & Chandni Chowk", "Hawa Mahal", "Fatehpur Sikri"],
+    "bestSeason": "Sep - Apr",
+    "packagesCount": 3,
+    "description": "India's celebrated cultural circuit featuring the magnificent Taj Mahal, Mughal monuments, and royal Rajput palaces."
+  },
+  {
+    "id": "punjab",
+    "name": "Punjab & Amritsar",
+    "tagline": "Sacred Golden Temple & Vibrant Heritage",
+    "image": "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?auto=format&fit=crop&w=1000&q=80",
+    "highlights": ["Golden Temple Darshan", "Wagah Border Beating Retreat", "Jallianwala Bagh", "Authentic Amritsari Kulcha"],
+    "bestSeason": "Oct - Mar",
+    "packagesCount": 2,
+    "description": "Heartwarming Punjabi hospitality, soulful spiritual vibes, heroic patriotic heritage, and rich culinary feasts."
+  }
+]

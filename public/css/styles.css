@@ -1,0 +1,139 @@
+/* SafarZap Custom Styling & Design Tokens */
+:root {
+  --sz-primary: #D97706; /* Warm Amber Gold */
+  --sz-primary-hover: #B45309;
+  --sz-secondary: #0D9488; /* Royal Teal */
+  --sz-secondary-hover: #0F766E;
+  --sz-dark: #0F172A; /* Deep Navy */
+  --sz-slate: #1E293B;
+  --sz-light: #F8FAFC;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #1E293B;
+  background-color: #F8FAFC;
+  overflow-x: hidden;
+}
+
+.font-serif-heading {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Glassmorphism elements */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+}
+
+.glass-card-dark {
+  background: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(51, 65, 85, 0.7);
+}
+
+/* Custom Gradients */
+.gradient-hero {
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(13, 148, 136, 0.8) 50%, rgba(217, 119, 6, 0.75) 100%);
+}
+
+.gradient-gold {
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+}
+
+.gradient-teal {
+  background: linear-gradient(135deg, #14B8A6 0%, #0D9488 100%);
+}
+
+.gradient-sunset {
+  background: linear-gradient(135deg, #F59E0B 0%, #EF4444 100%);
+}
+
+/* Smooth transitions & hovers */
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Badges */
+.badge-bestseller {
+  background-color: #FEF3C7;
+  color: #92400E;
+  border: 1px solid #FDE68A;
+}
+
+.badge-adventure {
+  background-color: #CCFBF1;
+  color: #115E59;
+  border: 1px solid #99F6E4;
+}
+
+.badge-royal {
+  background-color: #F3E8FF;
+  color: #6B21A8;
+  border: 1px solid #E9D5FF;
+}
+
+/* Pulse animation for helpline */
+@keyframes softPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.pulse-call {
+  animation: softPulse 2.5s infinite ease-in-out;
+}
+
+/* Print Voucher Styling */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-voucher, #printable-voucher * {
+    visibility: visible;
+  }
+  #printable-voucher {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background: white;
+    color: black;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "SFZ-2026-6697",
+    "createdAt": "2026-10-15T08:48:47.447Z",
+    "packageId": "sz-kash-01",
+    "packageTitle": "Magical Kashmir: Srinagar, Gulmarg & Pahalgam",
+    "customerName": "Rohit Sharma",
+    "customerEmail": "safarzap@gmail.com",
+    "customerPhone": "8725969152",
+    "travelDate": "2026-11-15",
+    "adults": 2,
+    "children": 1,
+    "vehicle": "Private Toyota Innova Crysta SUV",
+    "hotelTier": "4-Star Premium Boutique",
+    "addons": [
+      "Gulmarg Gondola Phase-2 Snow Peak Pass"
+    ],
+    "totalAmountINR": 60197,
+    "advancePaidINR": 15049,
+    "balanceDueINR": 45148,
+    "paymentMethod": "Pay on Arrival / UPI",
+    "status": "Confirmed",
+    "notes": "Standard booking",
+    "supportContact": {
+      "phone": "8725969152",
+      "email": "safarzap@gmail.com"
+    }
+  },
+  {
+    "id": "SFZ-2026-9412",
+    "createdAt": "2026-10-14T10:30:00.000Z",
+    "packageId": "sz-kash-01",
+    "packageTitle": "Magical Kashmir: Srinagar, Gulmarg & Pahalgam",
+    "customerName": "Rahul Verma",
+    "customerEmail": "rahul.verma91@gmail.com",
+    "customerPhone": "9812345678",
+    "travelDate": "2026-11-10",
+    "adults": 2,
+    "children": 1,
+    "vehicle": "Private Innova Crysta",
+    "hotelTier": "4-Star Heritage",
+    "addons": [
+      "Gondola Phase 2 Tickets",
+      "Houseboat Candlelight Dinner"
+    ],
+    "totalAmountINR": 44998,
+    "advancePaidINR": 10000,
+    "balanceDueINR": 34998,
+    "paymentMethod": "UPI / Bank Transfer",
+    "status": "Confirmed",
+    "notes": "Vegetarian meals preferred. Celebrating anniversary."
+  },
+  {
+    "id": "SFZ-2026-8831",
+    "createdAt": "2026-10-14T16:15:00.000Z",
+    "packageId": "sz-hp-01",
+    "packageTitle": "Shimla & Manali Himalayan Enchantment with Kasol",
+    "customerName": "Pooja Malhotra",
+    "customerEmail": "pooja.malhotra@outlook.com",
+    "customerPhone": "9876543210",
+    "travelDate": "2026-11-18",
+    "adults": 4,
+    "children": 0,
+    "vehicle": "Private Ertiga SUV",
+    "hotelTier": "3-Star Deluxe",
+    "addons": [
+      "Solang Paragliding Pass"
+    ],
+    "totalAmountINR": 57996,
+    "advancePaidINR": 15000,
+    "balanceDueINR": 42996,
+    "paymentMethod": "Credit Card",
+    "status": "Pending",
+    "notes": "Pickup from Chandigarh Railway Station at 9 AM."
+  },
+  {
+    "id": "SFZ-2026-7519",
+    "createdAt": "2026-10-15T09:00:00.000Z",
+    "packageId": "sz-raj-01",
+    "packageTitle": "Royal Rajasthan Heritage: Jaipur, Jodhpur & Udaipur",
+    "customerName": "Vikramaditya Rathore",
+    "customerEmail": "vikram.rathore@gmail.com",
+    "customerPhone": "9414012345",
+    "travelDate": "2026-12-05",
+    "adults": 2,
+    "children": 0,
+    "vehicle": "Sedan (Swift Dzire)",
+    "hotelTier": "5-Star Palace Collection",
+    "addons": [
+      "Lake Pichola Royal Boat Cruise"
+    ],
+    "totalAmountINR": 47998,
+    "advancePaidINR": 20000,
+    "balanceDueINR": 27998,
+    "paymentMethod": "UPI",
+    "status": "Confirmed",
+    "notes": "Need English-speaking guide in Udaipur."
+  }
+]

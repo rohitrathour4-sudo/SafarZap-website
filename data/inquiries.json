@@ -1,0 +1,78 @@
+[
+  {
+    "id": "INQ-2026-832",
+    "createdAt": "2026-10-15T08:56:50.908Z",
+    "customerName": "Rohit Rathour",
+    "customerEmail": "rohitrathour4@gmail.com",
+    "customerPhone": "8219867029",
+    "type": "custom_trip",
+    "destinations": [
+      "Himachal"
+    ],
+    "travelDate": "2026-10-18",
+    "durationDays": 4,
+    "adults": 2,
+    "children": 2,
+    "hotelTier": "3-Star Deluxe Hotels & Camps",
+    "vehicleType": "AC Sedan (Dzire / Etios) [Up to 4 Pax]",
+    "estimatedBudgetINR": 47040,
+    "message": "",
+    "status": "New"
+  },
+  {
+    "id": "INQ-2026-403",
+    "createdAt": "2026-10-15T08:49:05.683Z",
+    "customerName": "Ananya Kapoor",
+    "customerEmail": "ananya.k@gmail.com",
+    "customerPhone": "9820011223",
+    "type": "custom_trip",
+    "destinations": [
+      "Himachal Pradesh",
+      "Kashmir"
+    ],
+    "travelDate": "2026-10-22",
+    "durationDays": 7,
+    "adults": 2,
+    "children": 0,
+    "hotelTier": "4-Star Deluxe",
+    "vehicleType": "Sedan",
+    "estimatedBudgetINR": 55000,
+    "message": "Honeymoon trip to Manali and Srinagar",
+    "status": "New"
+  },
+  {
+    "id": "INQ-2026-104",
+    "createdAt": "2026-10-15T08:20:00.000Z",
+    "customerName": "Deepak Khurana",
+    "customerEmail": "deepak.k@hotmail.com",
+    "customerPhone": "9811223344",
+    "type": "custom_trip",
+    "destinations": [
+      "Kashmir & Ladakh",
+      "Himachal Pradesh"
+    ],
+    "travelDate": "2026-12-20",
+    "durationDays": 9,
+    "adults": 4,
+    "children": 2,
+    "hotelTier": "4-Star Deluxe",
+    "vehicleType": "Toyota Innova Crysta",
+    "estimatedBudgetINR": 115000,
+    "message": "Looking for snow in Gulmarg and Manali, luxury stays, family with 2 kids.",
+    "status": "New"
+  },
+  {
+    "id": "INQ-2026-103",
+    "createdAt": "2026-10-14T19:40:00.000Z",
+    "customerName": "Sunita Joshi",
+    "customerEmail": "sunita.joshi@gmail.com",
+    "customerPhone": "9829011223",
+    "type": "cab_rental",
+    "route": "Delhi to Rishikesh & Haridwar",
+    "travelDate": "2026-11-01",
+    "vehicleType": "Maruti Ertiga (6 Seater)",
+    "estimatedBudgetINR": 4799,
+    "message": "Round trip needed for 3 days with senior citizens.",
+    "status": "Contacted"
+  }
+]

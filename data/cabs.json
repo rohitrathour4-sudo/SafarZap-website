@@ -1,0 +1,100 @@
+[
+  {
+    "id": "cab-del-manali",
+    "from": "Delhi NCR",
+    "to": "Manali / Solang Valley",
+    "distance": "530 km",
+    "duration": "10-12 hrs",
+    "popular": true,
+    "pricing": {
+      "sedan": { "car": "Swift Dzire / Etios", "capacity": "4 Passengers", "luggage": "2 Bags", "priceINR": 7499, "originalINR": 8999 },
+      "suv": { "car": "Maruti Ertiga / Triber", "capacity": "6 Passengers", "luggage": "3 Bags", "priceINR": 9999, "originalINR": 11999 },
+      "luxurySuv": { "car": "Toyota Innova Crysta", "capacity": "6-7 Passengers", "luggage": "4 Bags", "priceINR": 13499, "originalINR": 15999 },
+      "tempo": { "car": "Force Tempo Traveller", "capacity": "12-16 Passengers", "luggage": "8 Bags", "priceINR": 18999, "originalINR": 22000 }
+    }
+  },
+  {
+    "id": "cab-del-shimla",
+    "from": "Delhi NCR",
+    "to": "Shimla / Kufri",
+    "distance": "345 km",
+    "duration": "7-8 hrs",
+    "popular": true,
+    "pricing": {
+      "sedan": { "car": "Swift Dzire / Etios", "capacity": "4 Passengers", "luggage": "2 Bags", "priceINR": 4999, "originalINR": 5999 },
+      "suv": { "car": "Maruti Ertiga", "capacity": "6 Passengers", "luggage": "3 Bags", "priceINR": 6799, "originalINR": 7999 },
+      "luxurySuv": { "car": "Toyota Innova Crysta", "capacity": "6-7 Passengers", "luggage": "4 Bags", "priceINR": 9499, "originalINR": 11000 },
+      "tempo": { "car": "Force Tempo Traveller", "capacity": "12-16 Passengers", "luggage": "8 Bags", "priceINR": 14499, "originalINR": 16500 }
+    }
+  },
+  {
+    "id": "cab-del-agra",
+    "from": "Delhi NCR",
+    "to": "Agra (Taj Mahal Same Day / One-way)",
+    "distance": "230 km",
+    "duration": "3.5 hrs (via Yamuna Exp)",
+    "popular": true,
+    "pricing": {
+      "sedan": { "car": "Swift Dzire / Etios", "capacity": "4 Passengers", "luggage": "2 Bags", "priceINR": 2999, "originalINR": 3799 },
+      "suv": { "car": "Maruti Ertiga", "capacity": "6 Passengers", "luggage": "3 Bags", "priceINR": 4299, "originalINR": 5200 },
+      "luxurySuv": { "car": "Toyota Innova Crysta", "capacity": "6-7 Passengers", "luggage": "4 Bags", "priceINR": 5999, "originalINR": 7200 },
+      "tempo": { "car": "Force Tempo Traveller", "capacity": "12-16 Passengers", "luggage": "8 Bags", "priceINR": 8999, "originalINR": 10500 }
+    }
+  },
+  {
+    "id": "cab-del-jaipur",
+    "from": "Delhi NCR",
+    "to": "Jaipur (Pink City)",
+    "distance": "280 km",
+    "duration": "4.5 hrs",
+    "popular": true,
+    "pricing": {
+      "sedan": { "car": "Swift Dzire / Etios", "capacity": "4 Passengers", "luggage": "2 Bags", "priceINR": 3999, "originalINR": 4899 },
+      "suv": { "car": "Maruti Ertiga", "capacity": "6 Passengers", "luggage": "3 Bags", "priceINR": 5499, "originalINR": 6499 },
+      "luxurySuv": { "car": "Toyota Innova Crysta", "capacity": "6-7 Passengers", "luggage": "4 Bags", "priceINR": 7499, "originalINR": 8999 },
+      "tempo": { "car": "Force Tempo Traveller", "capacity": "12-16 Passengers", "luggage": "8 Bags", "priceINR": 11999, "originalINR": 13999 }
+    }
+  },
+  {
+    "id": "cab-del-rishi",
+    "from": "Delhi NCR",
+    "to": "Rishikesh / Haridwar",
+    "distance": "240 km",
+    "duration": "4.5 hrs",
+    "popular": true,
+    "pricing": {
+      "sedan": { "car": "Swift Dzire / Etios", "capacity": "4 Passengers", "luggage": "2 Bags", "priceINR": 3499, "originalINR": 4200 },
+      "suv": { "car": "Maruti Ertiga", "capacity": "6 Passengers", "luggage": "3 Bags", "priceINR": 4799, "originalINR": 5800 },
+      "luxurySuv": { "car": "Toyota Innova Crysta", "capacity": "6-7 Passengers", "luggage": "4 Bags", "priceINR": 6799, "originalINR": 7999 },
+      "tempo": { "car": "Force Tempo Traveller", "capacity": "12-16 Passengers", "luggage": "8 Bags", "priceINR": 9999, "originalINR": 11500 }
+    }
+  },
+  {
+    "id": "cab-chd-manali",
+    "from": "Chandigarh / Mohali",
+    "to": "Manali",
+    "distance": "280 km",
+    "duration": "6-7 hrs",
+    "popular": true,
+    "pricing": {
+      "sedan": { "car": "Swift Dzire / Etios", "capacity": "4 Passengers", "luggage": "2 Bags", "priceINR": 4499, "originalINR": 5400 },
+      "suv": { "car": "Maruti Ertiga", "capacity": "6 Passengers", "luggage": "3 Bags", "priceINR": 5999, "originalINR": 7200 },
+      "luxurySuv": { "car": "Toyota Innova Crysta", "capacity": "6-7 Passengers", "luggage": "4 Bags", "priceINR": 8499, "originalINR": 9800 },
+      "tempo": { "car": "Force Tempo Traveller", "capacity": "12-16 Passengers", "luggage": "8 Bags", "priceINR": 12499, "originalINR": 14500 }
+    }
+  },
+  {
+    "id": "cab-srn-gulmarg",
+    "from": "Srinagar Airport / City",
+    "to": "Gulmarg / Pahalgam",
+    "distance": "55 - 90 km",
+    "duration": "1.5 - 2.5 hrs",
+    "popular": false,
+    "pricing": {
+      "sedan": { "car": "Etios / Dzire", "capacity": "4 Passengers", "luggage": "2 Bags", "priceINR": 2499, "originalINR": 3000 },
+      "suv": { "car": "Maruti Ertiga / Tavera", "capacity": "6 Passengers", "luggage": "3 Bags", "priceINR": 3499, "originalINR": 4200 },
+      "luxurySuv": { "car": "Innova Crysta", "capacity": "6-7 Passengers", "luggage": "4 Bags", "priceINR": 4799, "originalINR": 5500 },
+      "tempo": { "car": "Tempo Traveller", "capacity": "12-16 Passengers", "luggage": "8 Bags", "priceINR": 6999, "originalINR": 8000 }
+    }
+  }
+]
